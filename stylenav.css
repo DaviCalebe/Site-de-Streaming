@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #060F16;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: grid;
+    justify-content: center;
+}
+nav {
+    width: 1000px;
+    position: fixed;
+    justify-self: center;
+    z-index: 1;
+}
+.navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin: 8px;
+    gap: 20px;
+}
+.navegacao a {
+    font-weight: bold;
+}
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+a {
+    background: transparent;
+    font-size: 16px;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.botoes a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+}
+.pesquisar {
+    background: transparent;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+}
+.barradepesquisar {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 13px;
+    padding-right: 5px;
+}
+.barradepesquisar img {
+    cursor: pointer;
+}

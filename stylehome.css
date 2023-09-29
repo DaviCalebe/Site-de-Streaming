@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  background: #060f16;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.inicio {
+  margin-bottom: 1px;
+}
+.banner {
+  position: absolute;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+}
+.banner img {
+  width: 100%;
+  -webkit-mask-image: linear-gradient(to top, transparent 1%, #060f16);
+}
+.logo img {
+  margin-top: 70px;
+  width: 50%;
+  margin-left: 5px;
+}
+.flex {
+  display: flex;
+  gap: 20px;
+}
+.flex i {
+  color: #e2d3ad;
+}
+.flex p {
+  color: #e2d3ad;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 1px 1px;
+}
+.flex img {
+  width: 22px;
+  height: 20px;
+}
+.info {
+  margin-left: 5px;
+}
+.info p {
+  color: #e2d3ad;
+  font-weight: bold;
+  font-size: 18px;
+}
+.centralizar {
+  display: grid;
+  justify-content: center;
+}
+.top-3-titulo {
+  display: flex;
+  justify-content: start;
+  width: 1000px;
+}
+.top-3-titulo h1 {
+  color: whitesmoke;
+  margin: 0;
+  font-size: 60px;
+}
+.mil-pixels {
+  justify-content: center;
+  width: 1000px;
+}
+.filmes-destaque {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.filmes-destaque h1 {
+  font-size: 164px;
+  color: whitesmoke;
+}
+.imagens-de-banners {
+  width: 250px;
+  height: 400px;
+  border-radius: 5px;
+  margin-left: -38px;
+}
+.imagens-de-banners:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+.filmes-recentes {
+  width: 1000px;
+  margin-top: 70px;
+}
+.filmes-recentes img {
+  width: 250px;
+  height: 400px;
+}
+.filmes-recentes img:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+.filmes-recentes h1 {
+  color: #00a7e0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.series-recentes {
+  width: 1000px;
+}
+.series-recentes img {
+  width: 250px;
+  height: 400px;
+}
+.series-recentes img:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+.series-recentes h1 {
+  color: #00a7e0;
+}
+h3 {
+  color: whitesmoke;
+}
+footer {
+  padding-top: 14px;
+  text-align: center;
+}

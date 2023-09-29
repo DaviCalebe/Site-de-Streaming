@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: #060f16;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+main {
+  margin-top: 73px;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+h3 {
+  color: whitesmoke;
+}
+.grid {
+  display: grid;
+  justify-content: center;
+}
+.Series {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 50px;
+  width: 1000px;
+}
+.Series img {
+  width: 300px;
+  height: 400px;
+}
+.Series img:hover {
+  scale: 1.05;
+  transition: 1.05s;
+}
+footer {
+  padding-top: 14px;
+  text-align: center;
+}

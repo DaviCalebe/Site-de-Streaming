@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background: #060f16;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+main {
+  color: aliceblue;
+  margin-left: 25px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 0%;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.descrição {
+  margin-top: 85px;
+  text-align: left;
+
+}
+iframe {
+  margin-top: 100px;
+  text-align: center;
+}
+.comentar{
+  padding-left: 30px;
+}
+
+label, textarea {
+  display: block;
+}
+
+textarea {
+  margin: 15px 0;
+  width: 500px;
+  height: 100px;
+  background-color: #2b2b36;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  resize: none;
+}
+
+.caixinhacomentar{
+  background-color: #2b2b36;
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 95px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.582);
+  
+}
+footer {
+    padding-top: 14px;
+    text-align: center;
+  }
